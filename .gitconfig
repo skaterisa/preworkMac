@@ -1,0 +1,8 @@
+[user]
+        name = skaterisa
+        email = a123skate@hotmail.com
+[init "default"]
+        defaultBranch = main
+[init]
+        defaultBranch = main
+

@@ -1,0 +1,12 @@
+[filter "lfs"]
+        clean = git-lfs clean -- %f
+        smudge = git-lfs smudge -- %f
+        process = git-lfs filter-process
+        required = tru[user]
+        name = skaterisa
+        email = a123skate@hotmail.com
+[init "default"]
+        defaultBranch = main
+[init]
+        defaultBranch = main
+
